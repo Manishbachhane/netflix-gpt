@@ -1,3 +1,8 @@
+import Body from "./components/Body";
 export default function App() {
-  return <div className="bg-pink-900">ellow</div>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 }
